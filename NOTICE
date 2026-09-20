@@ -1,0 +1,31 @@
+NOTICE — Third-Party Data Attribution
+=====================================
+
+This repository bundles or downloads third-party datasets. All rights remain
+with the original providers; the MIT License in LICENSE applies to this
+project's code only.
+
+1. World Bank Commodity Price Data ("The Pink Sheet")
+   - File : data/CMO-Monthly.xlsx (monthly gold prices, 1960–Aug 2026)
+   - Source: https://www.worldbank.org/en/research/commodity-markets
+   - Terms : World Bank open data, CC BY 4.0
+             (https://creativecommons.org/licenses/by/4.0/)
+   - Sheet updated by the World Bank on 2026-09-02.
+
+2. FRED — Federal Reserve Bank of St. Louis (downloaded at runtime)
+   - GFDEBTN : Federal Debt: Total Public Debt (quarterly)
+   - DFII10  : Market Yield on U.S. Treasury Securities at 10-Year
+               Constant Maturity, Inflation-Indexed
+   - Source  : https://fred.stlouisfed.org
+   - Terms   : FRED data may be used with citation per
+               https://fred.stlouisfed.org/legal/
+
+3. World Gold Council — above-ground gold stock estimates
+   - ~222,600 t as of mid-2026 (https://www.gold.org/goldhub/data/how-much-gold)
+   - Used as a cited anchor for the stock back-cast; no WGC data files are
+     redistributed in this repository.
+
+4. GFMS / Metals Focus historical stock anchors (171,300 t in 2013;
+   212,582 t in 2023; 216,265 t end-2024) — cited figures only.
+
+If you reuse the bundled data, please retain this attribution.
